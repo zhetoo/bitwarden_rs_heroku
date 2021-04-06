@@ -9,7 +9,7 @@ env:
   DUO_ENABLE: 1
   GIT_HASH: master
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-  HEROKU_VERIFIED: 1
+  HEROKU_VERIFIED: ${{ secrets.HEROKU_VERIFIED }}
   OFFSITE_HEROKU_DB: ${{ secrets.OFFSITE_HEROKU_DB }}
 
 jobs:
